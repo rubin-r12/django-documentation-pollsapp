@@ -12,3 +12,20 @@
 1. Static files
 
 ---
+## Setting up Virtual Environment
+* Creating a virtual environment
+```bash
+conda create --name pollapp python=3.8
+```
+* To activate the virtual environment
+```bash
+conda activate pollapp
+```
+* Installing requirements
+```bash
+pip install django
+```
+* Run Server
+```bash
+python manage.py runserver
+```
